@@ -1,6 +1,3 @@
-from create_file import create_file
-
-
 def create_head_filter():
     with open("index.html", 'w') as file_html:
 
@@ -17,5 +14,3 @@ def create_head_filter():
         """
 
         file_html.write(head)
-
-create_head_filter()
